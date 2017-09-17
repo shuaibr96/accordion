@@ -1,0 +1,38 @@
+button.accordion {
+    background-color: #9e38b0;
+    cursor: pointer;
+    padding: 3.5%;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    border: 100px;
+   	border-bottom: 100%;
+}
+
+
+button.accordion.active, button.accordion:hover {
+    background-color: #6844b7;
+}
+
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+button.accordion:after {
+    content: '\2303'; 
+    font-size: 175%;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2304"; 
+}
