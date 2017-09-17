@@ -7,8 +7,7 @@ button.accordion {
     border: none;
     outline: none;
     transition: 0.4s;
-    border: 100px;
-   	border-bottom: 100%;
+
 }
 
 
@@ -35,4 +34,15 @@ button.accordion:after {
 
 button.accordion.active:after {
     content: "\2304"; 
+}
+
+div.panel p{
+	border: 0.1px;
+	border-style:solid; 
+	border-color: #d7d7e4; 
+	width: 105.6%;
+	height: 130%;
+	position: relative;
+	top: -16px;
+	left: -18px;
 }
