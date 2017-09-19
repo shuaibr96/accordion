@@ -7,11 +7,14 @@ button.accordion {
     border: none;
     outline: none;
     transition: 0.4s;
-
+    border-bottom-style: solid;
+    border-bottom-color: #6f277d;
+    border-bottom-width: 4.5px;
 }
 
 button.accordion.active, button.accordion:hover {
     background-color: #6844b7;
+    border-bottom-color: #4c3185;
 }
 
 
